@@ -110,7 +110,10 @@ function showCatchDetail(id){
   const c=catches.find(x=>x.id===id); if(!c)return;
   const imgSrc=speciesImage(c);
   const hero=imgSrc
-    ? `<div class="fishHero"><img src="${imgSrc}" alt="${escapeHtml(c.species)}"><div class="fishHeroLabel">${escapeHtml(c.species)}</div></div>`
+  <div class="fishHero">
+  <img src="${img}" alt="${escapeHtml(c.species || "Fish")}">
+  <div class="fishHeroLabel">${escapeHtml(c.species || "Fish")}</div>
+</div>
     : `<h2 class="detailTitle">${escapeHtml(c.species)}</h2>`;
   const photoButtonText=c.photo?'Change fish photo':'Add fish photo';
   document.getElementById('sheetContent').innerHTML=`
