@@ -1,9 +1,12 @@
-FishLog thumbnail edit
+FishLog photo upload fix
 
 Changes included:
-1. Detail fish card now uses small thumbnails instead of a large realistic bass hero image.
-2. Uploaded catch photo appears beside the bass thumbnail on the catch detail card.
-3. Tapping a thumbnail opens a full-size photo overlay with a close button.
-4. JavaScript file is named app.js to match index.html.
+1. Re-added a clear Photo area to the Log Catch form.
+2. Added separate buttons for:
+   - Choose from Photos: opens iPhone photo library / laptop file picker.
+   - Use Camera: opens the iPhone camera when supported.
+3. Uploaded photo still previews before saving.
+4. Saved catch detail card shows bass thumbnail and uploaded catch-photo thumbnail side by side.
+5. Tapping a thumbnail opens a full-size closeable viewer.
 
-Upload index.html, styles.css, and app.js together to your GitHub repo.
+Upload index.html, styles.css, and app.js to the root of your GitHub repo.
