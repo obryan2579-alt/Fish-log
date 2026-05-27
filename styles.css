@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: #08131f;
+  color: white;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 12px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 42px;
+  color: white;
+}
+
+#detailCard {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: rgba(8,19,31,0.95);
+  border-radius: 20px;
+  padding: 20px;
+  z-index: 2000;
+}
+
+.hidden {
+  display: none;
+}
+
+.thumb {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.closeBtn {
+  float: right;
+  border: none;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+}
